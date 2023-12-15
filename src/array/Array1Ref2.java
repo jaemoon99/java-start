@@ -1,9 +1,16 @@
 package array;
 
-public class ArrayRef3 {
+public class Array1Ref2 {
     public static void main(String[] args) {
         int[] students; // 배열 변수 선언
-        students = new int[]{90, 80, 70, 60, 50}; // 배열 생성과 초기화
+        students = new int[5];
+
+        // 변수 값 대입
+        students[0] = 90;
+        students[1] = 80;
+        students[2] = 70;
+        students[3] = 60;
+        students[4] = 50;
 
         // 변수 값 사용
         for (int i = 0; i < students.length; i++) {
